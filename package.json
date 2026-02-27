@@ -1,0 +1,11 @@
+{
+  "name": "coin-to-fish-mvp",
+  "version": "1.0.0",
+  "description": "Coin to Fish - MVP idle web game",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin to Fish - MVP</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>🐟 Coin to Fish - MVP</h1>
+
+      <section class="card" id="auth-card">
+        <h2>Login / Registro</h2>
+        <div class="row">
+          <input id="username" placeholder="username" />
+          <input id="email" placeholder="email" />
+          <button id="auth-btn">Entrar</button>
+        </div>
+      </section>
+
+      <section class="grid hidden" id="game-area">
+        <article class="card">
+          <h2>Dashboard</h2>
+          <p id="player-info"></p>
+          <p id="resources"></p>
+          <button id="collect-btn">Coletar Produção</button>
+        </article>
+
+        <article class="card">
+          <h2>Aquários</h2>
+          <div id="aquariums"></div>
+        </article>
+
+        <article class="card">
+          <h2>Inventário de Peixes</h2>
+          <div id="fish-list"></div>
+        </article>
+
+        <article class="card">
+          <h2>Upgrades</h2>
+          <p>Peixe: custo = nível atual × 100 moedas</p>
+          <p>Aquário: custo = slots atuais × 250 moedas</p>
+        </article>
+
+        <article class="card">
+          <h2>Missões</h2>
+          <ul id="missions"></ul>
+        </article>
+      </section>
+
+      <p id="status"></p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
